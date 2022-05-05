@@ -70,6 +70,7 @@
   .icon-cup:before {
     content: "\e900";
     color: #c70101;
+    font-size: 60px;
   }
   .icon-handcart:before {
     content: "\e903";
@@ -79,6 +80,7 @@
   .icon-heart:before {
     content: "\e904";
     color: #c70101;
+    font-size: 60px;
   }
   .icon-message:before {
     content: "\e909";
@@ -88,6 +90,7 @@
   .icon-shoe:before {
     content: "\e90c";
     color: #c70101;
+    font-size: 60px;
   }
   .icon-timer:before {
     content: "\e90d";
