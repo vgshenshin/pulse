@@ -1,0 +1,33 @@
+.carousel
+    padding: 81px 0
+    &__wrapper
+        position: relative
+        width: 750px
+        margin: 0 auto
+    .tns-item
+        img
+            width: 100%
+    .tns-nav
+        text-align: center
+        button
+            background-color: $main-color
+            border: none
+            margin: 0 3px
+            width: 20px
+            height: 6px
+        .tns-nav-active
+            background-color: #000
+    .prev, .next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: -97px
+        padding: 0
+        border: none
+        background-color: #fff
+        img
+            width: 31px
+            height: 50px
+    .next
+        left: auto
+        right: -97px
