@@ -232,6 +232,40 @@
             margin-top: 12px
             font-size: 13px
             line-height: 14px
+    .footer
+        height: 450px
+        iframe
+            height: 450px
+        &__info
+            width: 310px
+            height: 185px
+            padding: 15px 17px 20px 17px
+        &__addr, &__phone
+            font-size: 17px
+            line-height: 17px
+            margin-bottom: 26px
+        &__social
+            &-item
+                width: 40px
+                height: 40px
+                span
+                    font-size: 20px
+    .modal
+        width: 330px
+        min-height: 330px
+        background-color: #f2f2f2
+        padding: 28px 28px
+        &__close
+            top: 7px
+            right: 7px
+            font-size: 32px
+        &__subtitle
+            font-size: 17px
+        &__descr
+            font-size: 12px
+    .feed-form_mt25
+        width: 100%
+        
 
 @media (max-width: 575px)
     .header
@@ -278,3 +312,10 @@
         &__wrapper
             margin-top: 30px
             width: 300px
+    .footer
+        &__info
+            position: static
+            top: auto
+            left: auto
+            transform: translateX(0%)
+            width: 100%
