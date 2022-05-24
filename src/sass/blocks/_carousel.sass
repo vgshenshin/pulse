@@ -1,23 +1,38 @@
 .carousel
     padding: 81px 0
-    &__wrapper
+    &__inner
         position: relative
         width: 750px
         margin: 0 auto
-    .tns-item
-        img
-            width: 100%
-    .tns-nav
-        text-align: center
-        button
-            background-color: $main-color
-            border: none
-            margin: 0 3px
-            width: 20px
-            height: 6px
-        .tns-nav-active
+        .slick-slide
+            img
+                width: 100%
+    .slick-dots
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        padding-left: 0
+        margin-bottom: 0
+        list-style-type: none
+        margin-top: 20px
+        li
+            height: 7px
+            margin: 0 10px
+            padding: 0 10px
             background-color: #000
-    .prev, .next
+            button
+                display: block
+                border: none
+                background-color: #000
+                font-size: 0
+        .slick-active
+            background-color: $main-color
+            button
+                background-color: $main-color
+                color: $main-color
+
+        
+    .slick-prev, .slick-next
         position: absolute
         top: 50%
         transform: translateY(-50%)
@@ -28,6 +43,7 @@
         img
             width: 31px
             height: 50px
-    .next
+    .slick-next
         left: auto
         right: -97px
+    
