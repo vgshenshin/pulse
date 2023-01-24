@@ -114,8 +114,11 @@
         &:before
             font-size: 50px
     .carousel
-        &__inner
-            width: 550px
+        &__wrapper
+            width: 500px
+        .next img, .prev img
+            width: 21px
+            height: 40px
     .reviews
         &__wrapper
             margin-top: 40px
@@ -188,8 +191,10 @@
         &__descr
             font-size: 16px
     .carousel
-        &__inner
+        &__wrapper
             width: 400px
+        .next img, .prev img
+            display: none
     .title
         font-size: 22px
     .catalog
@@ -297,7 +302,7 @@
             span
                 display: inline
     .carousel
-        &__inner
+        &__wrapper
             width: 300px
     .title
         font-size: 20px
